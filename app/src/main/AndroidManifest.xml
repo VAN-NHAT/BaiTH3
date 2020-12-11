@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.app_th_passiocoffe">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".View.Maps_Activity"
+            android:label="@string/google_maps_key" />
+
+
+        <activity android:name=".View.Loading">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".View.Login1"/>
+        <activity android:name=".View.Login2"/>
+        <activity android:name=".View.Login3"/>
+        <activity android:name=".View.Login4"/>
+        <activity android:name=".View.Profile"/>
+        <activity android:name=".View.ThongBao"/>
+        <activity android:name=".View.Thanhvien"/>
+        <activity android:name=".View.Gift"/>
+        <activity android:name=".View.ChonMon"/>
+        <activity android:name=".View.ChiTiet"/>
+        <activity android:name=".View.GioHang"/>
+
+
+
+        <activity android:name=".View.MainActivity">
+
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_nen1"
+    android:orientation="vertical"
+    tools:context=".View.Login1">
+    <ImageView
+        android:layout_width="530px"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_logo_white2"
+        android:alpha="0.8"
+        android:layout_marginLeft="180dp"/>
+    <Button
+        android:id="@+id/bt_next1"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_bg_xanh"
+        android:text="ĐĂNG NHẬP BẰNG SỐ ĐIỆN THOẠI"
+        android:textColor="#ffffff"
+        android:layout_marginTop="400dp"/>
+    <Button
+        android:id="@+id/bt_fb"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_bg_xanhdam"
+        android:text="ĐĂNG NHẬP BẰNG FACEBOOK"
+        android:textColor="#ffffff"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:id="@+id/btnnext"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/radius_button"
+        android:text="BỎ QUA"
+        android:textColor="#000"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>
